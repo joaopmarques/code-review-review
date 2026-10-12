@@ -59,7 +59,7 @@ Say go to do all ✅. Or say go 1, 3 to pick.
 
 ## Defaults
 
-The skill has these opinions. Change them in `SKILL.md`.
+The skill has these opinions. Change them in `skills/code-review-review/SKILL.md`.
 
 - It reads only the reviewer's latest review.
 - It makes one commit per comment.
@@ -68,11 +68,26 @@ The skill has these opinions. Change them in `SKILL.md`.
 
 ## Install
 
-Clone this repo into your Claude Code skills folder:
+**As a Claude Code plugin** (Claude Code 2.1.275 or later), inside a session:
+
+```
+/plugin install code-review-review --marketplace joaopmarques/code-review-review
+```
+
+Or from your shell:
 
 ```bash
-git clone https://github.com/joaopmarques/code-review-review ~/.claude/skills/code-review-review
+claude plugin marketplace add joaopmarques/code-review-review
+claude plugin install code-review-review@joaopmarques
 ```
+
+**With the skills CLI** (works with Claude Code and other agents):
+
+```bash
+npx skills add joaopmarques/code-review-review
+```
+
+**By hand:** copy `skills/code-review-review/` into `~/.claude/skills/`.
 
 ## License
 

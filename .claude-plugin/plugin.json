@@ -1,0 +1,18 @@
+{
+  "name": "code-review-review",
+  "displayName": "Code Review Review",
+  "version": "1.0.0",
+  "description": "Explain a reviewer's PR comments in plain English, judge each one, then fix, push, and reply on 'go'.",
+  "author": {
+    "name": "João P. Marques",
+    "url": "https://github.com/joaopmarques"
+  },
+  "homepage": "https://github.com/joaopmarques/code-review-review",
+  "repository": "https://github.com/joaopmarques/code-review-review",
+  "license": "MIT",
+  "keywords": [
+    "code-review",
+    "pull-requests",
+    "github"
+  ]
+}

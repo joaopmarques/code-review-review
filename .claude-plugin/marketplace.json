@@ -1,0 +1,12 @@
+{
+  "name": "joaopmarques",
+  "description": "Claude Code plugins by João P. Marques",
+  "owner": { "name": "João P. Marques", "url": "https://github.com/joaopmarques" },
+  "plugins": [
+    {
+      "name": "code-review-review",
+      "source": "./",
+      "description": "Explain a reviewer's PR comments in plain English, judge each one, then fix, push, and reply on 'go'."
+    }
+  ]
+}
