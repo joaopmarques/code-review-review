@@ -68,16 +68,10 @@ The skill has these opinions. Change them in `skills/code-review-review/SKILL.md
 
 ## Install
 
-**As a Claude Code plugin** (Claude Code 2.1.275 or later), inside a session:
-
-```
-/plugin install code-review-review --marketplace joaopmarques/code-review-review
-```
-
-Or from your shell:
+**As a Claude Code plugin** (Claude Code 2.1.275 or later). This plugin lives in the [joaopmarques/claude-plugins](https://github.com/joaopmarques/claude-plugins) marketplace:
 
 ```bash
-claude plugin marketplace add joaopmarques/code-review-review
+claude plugin marketplace add joaopmarques/claude-plugins
 claude plugin install code-review-review@joaopmarques
 ```
 
