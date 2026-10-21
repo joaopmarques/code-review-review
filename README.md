@@ -1,5 +1,7 @@
 # code-review-review
 
+[![skills.sh](https://www.skills.sh/b/joaopmarques/code-review-review)](https://www.skills.sh/joaopmarques/code-review-review)
+
 A Claude Code skill that reads a reviewer's comments on a GitHub pull request and explains them to you in plain English. It changes nothing until you say **go**.
 
 ## What it does
